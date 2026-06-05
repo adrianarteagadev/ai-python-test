@@ -1,3 +1,3 @@
-﻿from fastapi import FastAPI
+from notification_service.app_factory import create_app
 
-app = FastAPI(title="Notification Service (Technical Test)")
+app = create_app()
